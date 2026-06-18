@@ -1,0 +1,30 @@
+# ملف .editorconfig - توحيد إعدادات المحررات
+
+root = true
+
+# جميع الملفات
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# ملفات Python
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 100
+
+# ملفات JSON/YAML
+[*.{json,yaml,yml}]
+indent_style = space
+indent_size = 2
+
+# ملفات JavaScript/TypeScript
+[*.{js,ts,jsx,tsx}]
+indent_style = space
+indent_size = 2
+
+# ملفات Markdown
+[*.md]
+trim_trailing_whitespace = false
